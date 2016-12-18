@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/onuar/pisip-client.svg?branch=master)](https://travis-ci.org/onuar/pisip-client)
+
 # pisip
 Detecting IP address changes
 
