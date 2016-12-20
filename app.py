@@ -1,5 +1,6 @@
 from helpers import config, client_ip, api_client, console
 import time
+import sys
 
 
 def loop(interval_sec):
@@ -17,5 +18,8 @@ def loop(interval_sec):
 
 
 if __name__ == "__main__":
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+
     interval_seconds = int(config.get_value("interval"))
     loop(interval_seconds)
